@@ -58,7 +58,7 @@
         "properties": {
           "mode": "Incremental",
           "templateLink": {
-            "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/solution.json",
+            "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/solution.json",
             "contentVersion": "1.0.0.0"
           },
           "parameters": {
@@ -84,7 +84,7 @@
     "properties": {
       "mode": "Incremental",
       "templateLink": {
-        "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/solution.json",
+        "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/solution.json",
         "contentVersion": "1.0.0.0"
       },
       "parameters": {
@@ -110,7 +110,7 @@
   "properties": {
     "mode": "Incremental",
     "templateLink": {
-      "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/solution.json",
+      "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/solution.json",
       "contentVersion": "1.0.0.0"
     },
     "parameters": {
@@ -135,7 +135,7 @@
           "properties": {
             "mode": "Incremental",
             "templateLink": {
-              "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/hybridworkerwithdsc.json",
+              "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/hybridworkerwithdsc.json",
               "contentVersion": "1.0.0.0"
             },
             "parameters": {
@@ -149,7 +149,7 @@
                 "value": "HybridWorkerConfig"
             },
             "configurationURI": {
-                "value": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/dsc-configurations/HybridWorkerConfig.ps1"
+                "value": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/dsc-configurations/HybridWorkerConfig.ps1"
             },
             "JobId": {
                 "value": "[guid(resourceGroup().id, deployment().name)]" 
@@ -174,7 +174,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/linkedworkspaceaccount.json",
+          "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/linkedworkspaceaccount.json",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
@@ -200,7 +200,7 @@
         "properties": {
           "mode": "Incremental",
           "templateLink": {
-            "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/Windows2016Server.json",
+            "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/Windows2016Server.json",
             "contentVersion": "1.0.0.0"
           },
           "parameters": {
@@ -227,7 +227,7 @@
   "properties": {
     "mode": "Incremental",
     "templateLink": {
-      "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/monitoringagent.json",
+      "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/monitoringagent.json",
       "contentVersion": "1.0.0.0"
     },
     "parameters": {
@@ -259,7 +259,7 @@
   "properties": {
     "mode": "Incremental",
     "templateLink": {
-      "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/dscagent.json",
+      "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/dscagent.json",
       "contentVersion": "1.0.0.0"
     },
     "parameters": {
@@ -296,7 +296,7 @@
   "properties": {
     "mode": "Incremental",
     "templateLink": {
-      "uri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/managed-vm/linked-templates/scheduleUpdateDeployment.json",
+      "uri": "https://raw.githubusercontent.com/alexandair/automation-packs/master/managed-vm/linked-templates/scheduleUpdateDeployment.json",
       "contentVersion": "1.0.0.0"
     },
     "parameters": {
