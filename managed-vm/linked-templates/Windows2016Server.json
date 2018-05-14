@@ -22,12 +22,12 @@
 		},
 		"vmSize": {
 			"type": "string",
-			"defaultValue": "Standard_D1",
+			"defaultValue": "Standard_D1_v2",
 			"metadata": {
 				"description": "VM size"
 			},
 			"allowedValues": [
-				"Standard_D1",
+				"Standard_D1_v2",
 				"Standard_D2",
 				"Standard_D3",
 				"Standard_D4",
